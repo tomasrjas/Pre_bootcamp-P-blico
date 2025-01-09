@@ -1,0 +1,204 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1065px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.navbar nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 18px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.navbar nav a:last-child {
+  margin-right: 0;
+}
+
+.navbar button {
+  background-color: #00bcd4;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 10px auto;
+  gap: 15px;
+}
+
+.left-column {
+  flex: 2;
+}
+
+.right-column {
+  flex: 1;
+}
+
+.profile-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.profile-header {
+  background-color: #00bcd4;
+  height: 80px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.profile-image {
+  display: flex;
+  justify-content: center;
+  margin-top: -40px;
+}
+
+.profile-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.profile-info {
+  text-align: center;
+  padding: 10px;
+}
+
+.profile-info h2 {
+  margin: 5px 0;
+  font-size: 20px;
+}
+
+.profile-info p {
+  margin: 3px 0;
+  color: #555;
+  font-size: 12px;
+}
+
+.profile-info .edit-profile {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: #555;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.profile-info .edit-profile:hover {
+  background-color: #f4f4f4;
+}
+
+.educacion {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  min-height: 200px;
+  padding-bottom: 80px;
+}
+
+.educacion-card h3 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.conexiones-requests,
+.connections {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.conexiones-requests h3,
+.connections h3 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.conexiones-requests .request,
+.connections ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.conexiones-requests .request img,
+.connections ul li img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.conexiones-requests .actions button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.conexiones-requests .actions .accept {
+  color: green;
+}
+
+.conexiones-requests .actions .decline {
+  color: red;
+}
+
+.conexiones ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.conexiones ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.conexiones ul li:last-child {
+  margin-bottom: 0;
+}
+
+.conexiones ul li img {
+  margin-right: 8px;
+}
+
+.conexiones ul li span {
+  font-size: 12px;
+  color: #555;
+}
